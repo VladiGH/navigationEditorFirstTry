@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">NavEditorTry</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hola_soy_el_primer_fragmento">Hola! Soy el primer fragmento!</string>
+    <string name="hola_soy_el_segundo_fragmento">Hola! soy el segundo frag</string>
+    <string name="hola_soy_el_tercer_fragmento">Soy el tercero</string>
+    <string name="hola_soy_el_cuarto_fragmento">Soy el cuarto</string>
 </resources>
