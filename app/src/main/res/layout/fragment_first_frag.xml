@@ -11,5 +11,11 @@
         android:layout_height="match_parent"
         android:text="@string/hola_soy_el_primer_fragmento"
         android:textSize="24sp"/>
+    <Button
+        android:id="@+id/bt_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_fragment"
+        android:layout_gravity="center"/>
 
 </FrameLayout>

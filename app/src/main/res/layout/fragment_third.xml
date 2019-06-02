@@ -11,5 +11,18 @@
         android:layout_height="match_parent"
         android:text="@string/hola_soy_el_tercer_fragmento"
         android:textSize="24sp" />
+    <Button
+            android:id="@+id/bt_third"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next_fragment"
+            android:layout_gravity="center"/>
+    <Button
+            android:id="@+id/bt_backtofirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back_to_first_fragment"
+            android:layout_gravity="center|bottom"/>
+
 
 </FrameLayout>

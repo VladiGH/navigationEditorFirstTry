@@ -7,4 +7,6 @@
     <string name="hola_soy_el_segundo_fragmento">Hola! soy el segundo frag</string>
     <string name="hola_soy_el_tercer_fragmento">Soy el tercero</string>
     <string name="hola_soy_el_cuarto_fragmento">Soy el cuarto</string>
+    <string name="next_fragment">Next Fragment</string>
+    <string name="back_to_first_fragment">Back to first fragment</string>
 </resources>
