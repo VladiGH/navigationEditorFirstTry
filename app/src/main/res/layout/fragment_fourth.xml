@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:tools="http://schemas.android.com/tools"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent"
-             tools:context=".fourth">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#84dc9c"
+    tools:context=".fourth">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
@@ -11,5 +12,10 @@
             android:layout_height="match_parent"
             android:text="@string/hola_soy_el_cuarto_fragmento"
             android:textSize="24sp"/>
-
+    <Button
+            android:id="@+id/bt_backtofirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back_to_first_fragment"
+            android:layout_gravity="center"/>
 </FrameLayout>

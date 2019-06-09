@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#537dbd"
     tools:context=".third">
 
     <!-- TODO: Update blank fragment layout -->
@@ -17,12 +18,7 @@
             android:layout_height="wrap_content"
             android:text="@string/next_fragment"
             android:layout_gravity="center"/>
-    <Button
-            android:id="@+id/bt_backtofirst"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/back_to_first_fragment"
-            android:layout_gravity="center|bottom"/>
+
 
 
 </FrameLayout>

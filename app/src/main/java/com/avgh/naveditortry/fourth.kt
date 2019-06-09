@@ -7,6 +7,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.Navigation.findNavController
+import androidx.navigation.fragment.findNavController
+import kotlinx.android.synthetic.main.fragment_fourth.view.*
 
 
 // TODO: Rename parameter arguments, choose names that match
@@ -30,6 +33,9 @@ class fourth : Fragment() {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_fourth, container, false)
 
+        view.bt_backtofirst.setOnClickListener {
+            findNavController().navigate(R.id.action_fourth_to_first_frag)
+        }
 
         return view
     }

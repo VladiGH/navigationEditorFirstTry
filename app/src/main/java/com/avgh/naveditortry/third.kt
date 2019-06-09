@@ -34,9 +34,6 @@ class third : Fragment() {
         view.bt_third.setOnClickListener {
             findNavController().navigate(R.id.action_third_to_fourth)
         }
-        view.bt_backtofirst.setOnClickListener {
-            findNavController().navigate(R.id.action_third_to_first_frag)
-        }
 
         return view
     }
